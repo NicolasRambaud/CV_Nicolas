@@ -1,0 +1,68 @@
+body {
+    background-image: url("Image/image.jpeg");
+    background-size: cover;
+}
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("police/SourceSansPro-Regular.ttf") format("truetype");
+}
+p, span, strong, li, h1, h2, h3 ,a{
+    font-family: "SourceSansPro";
+}
+
+strong, span {
+    color:purple;
+}
+.TEXTE {
+    display:flex;
+    justify-content: flex-end;
+}
+.LEFT {
+    margin-right: 18em;
+    width: 25em;
+}
+
+.RIGHT {
+    margin-right: 25em;
+    width: 25em;
+    text-align: right;
+}
+
+.description {
+    margin: 0 auto;
+    width: 45em;
+    display:flex;
+    justify-content: flex-end;
+}
+.gauche {
+    margin-right: 8em;
+    width: 25em;
+}
+.droite{
+    margin-right: 8em;
+    width: 25em;
+}
+.logo_linkedin {
+    width: 18em;
+    height: 5em;
+    margin-left: -1em;
+}
+.Linkedin {
+    margin: 0 auto;
+    width: 22em;
+    margin-top: 5em;
+}
+.photo_nico {
+    margin-left: 3em;
+}
+a span {
+    font-size: 2em;
+    margin-left: 0.5em; 
+    position: relative;
+    bottom: 0.5em;
+}
+.photo_nico {
+    margin-left: 30em;
+    width: 15em;
+    height: 15em;
+}
